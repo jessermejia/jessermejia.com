@@ -4,20 +4,20 @@ button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-bloc
  * {
    font-family: 'Courier New', sans-serif;
  }
- 
+
  body {
    margin: 10px;
  }
- 
+
  hr {
    width: 100%;
  }
- 
+
  a {
    color: inherit;
    text-decoration: none;
  }
- 
+
 ul {
   list-style: none;
   padding-left: 0;
@@ -38,13 +38,13 @@ ul {
        border: 2px solid white;
        &:hover {
          border-radius: 5px;
-         border: 2px solid orange;
+         border: 2px solid #FAAF34;
          cursor: pointer;
        }
      }
    }
  }
- 
+
  .main {
    padding-top: 40px;
    display: flex;
@@ -60,11 +60,11 @@ ul {
    .where-i-work {
      font-size: 1.25em;
      padding-bottom: 20px;
-     // IE11
-     width: 100%;
      .company {
        color: #FF8C00;
      }
+     // IE11
+     width: 100%;
    }
    .social-icons {
      display: flex;
